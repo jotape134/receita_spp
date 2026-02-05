@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chef</title>
+
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        /* Fixar header */
+        .fixed-top-custom {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 9999;
+        }
+
+        body {
+            padding-top: 160px; /* espaço para o cabeçalho fixo */
+        }
+    </style>
+</head>
+
+<body class="bg-light">
+
+    <!-- MENU FIXO -->
+    <div class="fixed-top-custom">
+
+        <!-- MENU LARANJA -->
+        <div class="py-3" style="background:#d46d1b;">
+            <div class="container d-flex justify-content-between align-items-center flex-wrap">
+
+                <!-- BARRA DE PESQUISA -->
+                <div class="me-3" style="max-width: 1400px;">
+                    <div class="input-group">
+                        <span class="input-group-text bg-white border-end-0 rounded-start-pill">🔍</span>
+                        <input type="text" class="form-control border-start-0 rounded-end-pill" style="height:48px;" placeholder="pesquise por receitas">
+                    </div>
+                </div>
+
+                <!-- BOTÕES -->
+                <div class="d-flex gap-3 ms-auto">
+                    <a href="index.html" class="btn btn-light rounded-pill px-4">🏠 Início</a>
+                    <a href="chef.html" class="btn btn-light rounded-pill px-4">👨‍🍳 Chef</a>
+                    <a href="receitas.html" class="btn btn-light rounded-pill px-4">📘 Receitas</a>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- FAIXA PRETA -->
+        <div class="py-3 text-center" style="background:black;">
+            <h3 class="fw-bold text-light m-0 text-nowrap">
+                COMIDA JUNINA
+            </h3>
+        </div>
+    </div>
+
+    <!-- CONTEÚDO DA PÁGINA -->
+    <div class="container mt-5">
+
+        <div class="row align-items-start">
+
+            <!-- FOTO DO CHEF -->
+            <div class="col-md-4">
+                <img src="./imgs/e735231694.webp" class="img-fluid rounded shadow">
+            </div>
+
+            <!-- TEXTO -->
+            <div class="col-md-8">
+                <h1 class="fw-bold mb-4">João Paulo</h1>
+
+                <p class="fs-5">
+                    No coração da cozinha nordestina, o chef João da Roça se destaca por transformar tradições em experiências saborosas.
+                    Apaixonado pelas festas juninas desde a infância, ele dedica o mês de junho a preparar receitas típicas como canjica cremosa,
+                    pamonha, curau e bolo de milho — pratos que ele aprendeu com a avó, dona Maria, nas noites de São João em Campina Grande.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- RODAPÉ -->
+    <footer class="text-center py-4 mt-5" style="background:#d46d1b;">
+        <h3 class="fw-bold text-light m-0 text-nowrap">
+            COMIDA JUNINA
+        </h3>
+    </footer>
+
+    <div class="bg-dark py-3"></div>
+
+</body>
+</html>
